@@ -1,7 +1,7 @@
 import type { SidebarConfig } from '@vuepress/theme-default'
 
 export const zh: SidebarConfig = {
-    '/relearn/html': [
+    '/relearn/html/': [
         {
             text: 'HTML',
             link: '/relearn/html/README.md',
@@ -13,7 +13,7 @@ export const zh: SidebarConfig = {
             ],
         }
     ],
-    '/relearn/css': [
+    '/relearn/css/': [
         {
             text: 'CSS',
             link: '/relearn/css/README.md',
@@ -24,7 +24,7 @@ export const zh: SidebarConfig = {
             ],
         },
     ],
-    '/relearn/js': [
+    '/relearn/js/': [
         {
             text: 'JavaScript',
             link: '/relearn/js/README.md',
@@ -35,7 +35,7 @@ export const zh: SidebarConfig = {
             ],
         },
     ],
-    '/relearn/browser': [
+    '/relearn/browser/': [
         {
             text: 'browser',
             link: '/relearn/browser/README.md',

@@ -4,7 +4,7 @@ import type { DefaultThemeOptions } from '@vuepress/theme-default'
 import { navbar, sidebar } from './configs'
 
 export default defineUserConfig<DefaultThemeOptions>({
-    base: './',
+    base: '/',
     lang: 'en-US',
     title: 'zmheang',
     description: 'zmheang',
