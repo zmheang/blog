@@ -10,7 +10,6 @@ export default defineUserConfig<DefaultThemeOptions>({
     description: 'zmheang',
     head: [['link', { rel: 'icon', href: '/images/logo-zmheang3.png' }]],
 
-
     locales: {
         '/': {
             lang: 'zh-CN',
@@ -40,5 +39,6 @@ export default defineUserConfig<DefaultThemeOptions>({
         editLink: false,
         lastUpdated: false,
         contributors: false
-    }
+    },
+    debug: false
 });
