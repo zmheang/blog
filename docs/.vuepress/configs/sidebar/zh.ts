@@ -19,8 +19,8 @@ export const zh: SidebarConfig = {
             link: '/relearn/11-css/README.md',
             children: [
                 '/relearn/11-css/README.md',
-                '/relearn/11-css/history.md',
-
+                '/relearn/11-css/demo/README.md',
+                '/relearn/11-css/demo/10-expanding-cards.md',
             ],
         },
     ],
@@ -58,9 +58,9 @@ export const zh: SidebarConfig = {
     '/relearn/15-browser/': [
         {
             text: 'browser',
-            link: '/relearn/15-browser/README.md',
             children: [
-                '/relearn/15-browser/index.md',
+                '/relearn/15-browser/README.md',
+                '/relearn/15-browser/index/index.md'
             ],
         },
     ],

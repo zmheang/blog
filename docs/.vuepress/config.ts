@@ -1,6 +1,6 @@
 import { defineUserConfig } from '@vuepress/cli'
 import type { DefaultThemeOptions } from '@vuepress/theme-default'
-// import { path } from '@vuepress/utils'
+import { path } from '@vuepress/utils'
 import { navbar, sidebar } from './configs'
 
 export default defineUserConfig<DefaultThemeOptions>({
@@ -9,7 +9,6 @@ export default defineUserConfig<DefaultThemeOptions>({
     title: 'zmheang',
     description: 'zmheang',
     head: [['link', { rel: 'icon', href: '/images/logo-zmheang3.png' }]],
-
     locales: {
         '/': {
             lang: 'zh-CN',
@@ -19,6 +18,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     },
     // ⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️站点配置️：无论使用什么主题，该配置项都生效   ⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️
     // ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️主题配置️                              ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+    // theme: path.resolve(__dirname, './theme'),
     themeConfig: {
         logo: '/images/logo-zmheang3.png',
         darkMode: true,

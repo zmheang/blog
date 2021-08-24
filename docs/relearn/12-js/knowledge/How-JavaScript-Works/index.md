@@ -1,0 +1,1 @@
+[How JavaScript Works](https://blog.sessionstack.com/how-javascript-works-deep-dive-into-call-apply-and-bind-415f6729c902)
