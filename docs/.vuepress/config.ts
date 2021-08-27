@@ -13,14 +13,14 @@ export default defineUserConfig<DefaultThemeOptions>({
         '/': {
             lang: 'zh-CN',
             title: 'zmheang',
-            description: 'zmheang blog',
+            description: 'zmheang の 資源庫',
         }
     },
     // ⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️站点配置️：无论使用什么主题，该配置项都生效   ⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️
     // ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️主题配置️                              ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
     // theme: path.resolve(__dirname, './theme'),
     themeConfig: {
-        logo: '/images/logo-zmheang3.png',
+        logo: '/images/logo-zmheang3.svg',
         darkMode: true,
         repo: 'https://github.com/zmheang/blog',
         // navbar: false,
