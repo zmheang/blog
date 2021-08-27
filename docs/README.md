@@ -17,11 +17,7 @@ features:
   details: 制定不同阶段的🚩
 heroText: zmheang の 資源庫
 tagline: 从此刻开始，记录自己的点点滴滴
-
 footer: MIT Licensed | Copyright © 2021-present zmheang
 ---
-
-[comment]: <> (<span class=home-text>Welcome <strong>stranger</strong></span>)
-
 
 
