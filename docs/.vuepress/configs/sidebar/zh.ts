@@ -105,7 +105,17 @@ export const zh: SidebarConfig = {
         {
             text: '算法',
             children: [
-                '/algorithm/architecture.md',
+                '/algorithm/basicKnowledge.md',
+                '/algorithm/leeCode/index.md',
+            ],
+        }
+    ],
+    '/interview/': [
+        {
+            text: '算法',
+            children: [
+                '/interview/index.md',
+                '/interview/leeCode/index.md',
             ],
         }
     ],

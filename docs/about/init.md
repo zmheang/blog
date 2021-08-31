@@ -1,5 +1,5 @@
 # 使用vue-press <Badge type="tip" text="v2" vertical="top" />搭建静态网站
-[官方文档](https://v2.vuepress.vuejs.org/zh/)   --- 使用的是最新版本
+[官方文档](https://v2.vuepress.vuejs.org/zh/)   --- 使用的是最新版本，目前社区关于V2的资源还是比较少的，但是总有点强迫症，版本要用最新的，那就开始踩坑吧
 
 ## 项目初始化
 
