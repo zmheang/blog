@@ -57,7 +57,7 @@ echo '.cache' >> .gitignore
 
 ```shell
 mkdir docs
-echo '# Hello VuePress' > docs/README.md
+echo '# Hello VuePress' > docs/index.md
 ```
 
 5. 在Terminal中启动服务
@@ -102,7 +102,7 @@ npm run docs:dev
 		- dist
 		- public
 		- config.ts
-	- README.md
+	- index.md
 - package.json
 ```
 
